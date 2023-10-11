@@ -1,0 +1,107 @@
+- Introduction
+	- Topics
+		- Course information
+			- 12 meetings/lectures
+				- After each 45m 10m break
+			- How to contact me?
+				- Check if someone asked on Course Group/Channel on Teams or if I already posted
+				- Then write to me on Teams
+			- Grading and passing
+				- 2 grades: 1 from lectures, 1 from labs
+				- Exam = lecture, test = labs
+				- Both will be on Teams, both will be in written form
+				- Multiple choice answers
+				- Question randomized, answers will be randomized
+				- ~30 seconds per answer
+				- 2 terms to pass
+				- First term = 18th of January 24
+			- All meetings (lectures and labs) will be on Teams (online)
+				- all of them will be recorded
+				- recordings will be in Files on the course Channel on Teams
+			- I will not check attendance
+		- Introduction and historical context
+			- Origins of Erlang
+				- Erlang emerged in the mid-1980s from Ericsson, a global telecom giant
+				- Pioneered by Joe Armstrong and a team of developers to address pressing challenges in the telecommunications domain, such as the need for robustness, concurrent operations, and system scalability.
+				- Functional nature and unique concurrency model, underpinned by the Actor Model, set it apart from contemporary languages and proved transformative for systems requiring high reliability and fault tolerance.
+			- The need for Elixir
+				- Elixir, a more recent evolution, was developed by José Valim as an attempt to bring the power of Erlang's BEAM virtual machine to a broader audience.
+		- Features and properties of Elixir
+			- Types of languages
+				- Imperative branch
+					- Fortran
+					- Per-instruction execution
+					- Procedural
+						- Fortran
+					- Object-oriented
+				- Functional branch
+					- Lisp
+					- (a + b / z) -> x
+			- Functional
+				- Program is a composition of expressions (functions)
+				- Immutability
+					- An object that can't be changed, and always has the same values from the moment that it is created.
+				- Pureness
+					- A pure function is a function that, given the same input, always returns the same output and has no side effects.
+				- Recursion
+					- Recursion is a programming technique where a function calls itself to solve a smaller instance of the same problem.
+				- Metaprogramming
+					- Metaprogramming is the practice of writing code that generates or manipulates other code, allowing programmers to achieve greater flexibility and abstraction by treating code as data.
+			- Dynamically typed with type hinting
+				- A language being dynamically typed means that variable types are checked at runtime rather than at compile time. In such languages, you don't need to explicitly declare the type of a variable when you create it; the type is determined when the program is actually running based on the value assigned to the variable.
+			- Developer-friendly / REPL-driven development
+				- Refers to a programming approach emphasizing user-centric tools and environments. It often involves the use of a REPL (Read-Eval-Print Loop), an interactive shell that immediately evaluates and returns the results of code snippets, enabling rapid feedback and iterative experimentation during the development process.
+			- Documentation as first-class
+				- Signifies the language's emphasis on treating documentation with the same importance as code itself. Elixir provides built-in tools to generate and manage documentation, and its package manager, Hex, natively supports package documentation, ensuring that libraries and modules are easily accessible and comprehensible for developers.
+			- Compiled or interpreted
+			- Basic BEAM concepts
+				- ![../assets/beam_internals.png](../assets/beam_internals.png)
+		- Basic syntax
+		- Setup and running
+			- asdf
+			- elixir and elixirc
+			- IEx
+		- Tools and ecosystem
+			- Mix: Building, testing and managing Elixir projects
+			- Hex: Elixir's package manager
+		- Real-world use-cases
+			- Elixir in web-development
+			- WhatsApp, Ericsson, CISCO, Spotify, etc.
+			- StackOverflow survey
+		- Community and resources
+			- Books, courses, documentation
+			- Online communities
+			- Exercises
+	- Suggested materials
+		- [History of Erlang](https://www.labouseur.com/courses/erlang/history-of-erlang-armstrong.pdf)
+		- [Elixir: The Documentary](https://www.youtube.com/watch?v=lxYFOM5UJzo)
+		- [JVM struggles and the BEAM](https://mrjoelkemp.medium.com/jvm-struggles-and-the-beam-2d9c58547410)
+		- [Why Erlang? Joe Armstrong’s Legacy of Fault-Tolerant Computing](https://thenewstack.io/why-erlang-joe-armstrongs-legacy-of-fault-tolerant-computing/)
+		- [The Soul of Erlang and Elixir](https://www.youtube.com/watch?v=JvBT4XBdoUE&ab_channel=GOTOConferences)
+		- [Adoption use-cases](https://elixir-lang.org/cases.html)
+		- [Why functional programming matters?](https://github.com/IwoHerka/great-cs-papers/blob/master/Why_Functional_Programming_Matters_J_Hughes.pdf)
+	- Links and resources
+		- [Elixir School](https://elixirschool.com/en)
+		- [ElixirBooks @GitHub](https://github.com/sger/ElixirBooks)
+		- [Elixir Recipes @ GitHub](https://elixir-recipes.github.io/)
+		- [Elixir Newbie Podcast](https://www.elixirnewbie.com/)
+		- [Awesome Elixir @ GitHub](https://github.com/h6cc/awesome-elixir)
+		- [ElixirConf @ YouTube](https://www.youtube.com/@ElixirConf/videos)
+		- [JoseValim on Twitch](https://www.twitch.tv/josevalim/video)
+		- [Elixir's Discord](https://discord.com/invite/elixir)
+		- [Story of Elixir programming language](https://curiosum.com/blog/story-of-elixir-programming-language)
+		- [How Cisco is using Erlang for intent-based networking](https://www.youtube.com/watch?v=qmtpszspEaI&ab_channel=CodeSync)
+		- [Elixir Cheatsheet](https://devhints.io/elixir)
+		- [Today I've Learned: Elixir](https://til.hashrocket.com/elixir)
+	- Homework
+		- Answer following questions:
+			- What are properties of Elixir?
+			- How did Elixir came to be?
+			- What are strengths of Elixir? 
+		- Familiarize yourself with [elixir-lang.org](https://elixir-lang.org/), and read through https://elixir-lang.org/getting-started/introduction.html (1-3).
+		- Familiarize yourself with https://hex.pm/ and https://hexdocs.pm
+		- Familiarize yourself with Elixir's documentation: https://elixir-lang.org/docs.html
+			- Specifically Elixir's standard library
+		- Install Elixir and Erlang (preferably using [asdf](https://asdf-vm.com/) version manager)
+			- Play around using elixir executable and IEx, run hello world script
+		- Read some of suggested reading, watch mini-documentary
