@@ -1,0 +1,21 @@
+- #### Resources
+	- [MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary)
+		- Provides definitions of words and abbreviations related to programming (specifically web programming, most of the terms translate to programming in general).
+	- [Computer Science 50 (CS50) by Harvard University](https://cs50.harvard.edu/x/2023/)
+		- This is a comprehensive introduction to computer science and programming. While the course itself dives deep into various topics, the initial lectures and materials cover fundamental concepts very well. Course uses C as an example language which is relatively low-level language, however almost all concepts in C apply to programming in general. Suggested lectures are:
+			- Week 0 - Stratch
+			- Week 1 - C
+			- Week 2 - Arrays
+			- Week 3 - Algorithms
+	- [Think Like a Programmer: An Introduction to Creative Problem Solving](https://www.amazon.com/Think-Like-Programmer-Introduction-Creative/dp/1593274246)
+		- This book focuses on problem-solving techniques and the mindset required for programming. It's language-agnostic and emphasizes the thought processes behind coding.
+	- Materials on command line/terminal/shell
+		- [MDN's command line crash course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
+		- [Ubuntu's Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+		- [Command Line Basics @ The Odin Project](https://www.theodinproject.com/lessons/foundations-command-line-basics)
+		- [Learn the Command Line course @ CodeAcademy](https://www.codecademy.com/learn/learn-the-command-line)
+		- [Command Line Commands – CLI Tutorial @ freeCodeCamp](https://www.freecodecamp.org/news/command-line-commands-cli-tutorial/)
+	- [ChatGPT](https://chat.openai.com/)
+		- This might be controversial, but think ChatGPT can be very helpful in learning programming. I would suggest quickly get answers to general questions and decent explanations of concepts and terms.
+	- [Structure and Interpretation of Computer Programs](https://web.mit.edu/6.001/6.037/sicp.pdf)
+		- Often used as a textbook in introductory programming courses, this book provides a deep dive into the fundamental concepts of programming using Scheme, a dialect of Lisp. The books is very abstract and fast-paced so might not be a good first book.
